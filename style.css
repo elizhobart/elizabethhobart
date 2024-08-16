@@ -1,0 +1,371 @@
+body { 
+	background-color : #4093db;
+	text-align : center;
+}
+
+#banner { 
+	text-align : center;
+	position : relative;
+	background-color : #276092;
+	margin-left : -1em;
+	margin-right : -2em;
+	top : -10px;
+	padding-top : 1em;
+	padding-bottom : 1em;
+	font-size : 2em;
+	font-style : italic;
+	font-family : cursive;
+}
+
+#banner a {
+	color : black;
+	text-decoration : none;
+	
+}
+
+#name {
+	font-size : 2.5em;
+}
+
+/*#mainImage { 
+	width : 70%;
+	z-index : 2;
+	margin-bottom : 3em;
+}*/
+
+#navMenu { 
+	width : 110%;
+	height : 10%;
+	margin-top : -1em;
+	margin-left : -1em;
+	margin-right : -2em;
+	background-color : #276092;
+	position : absolute; 
+	overflow : hidden;
+	border-top : 1px solid black;
+}
+
+#navMenu ul { 
+	margin-left : 5%;
+	padding : 0;
+	list-style : none;
+	position : relative;
+	z-index : 2;
+}
+
+#navMenu a { 
+	display : block;
+	text-decoration : none;
+	font-family : calibri;
+	font-weight : bold;
+	font-size : 30px;
+	color : black;
+	/*padding : 3px;*/	
+	height : 100%;
+}
+
+#navMenu li { 
+	float : left;
+	width : 20%;
+}
+
+#navMenu li ul { 
+	display : none;
+	margin-left : 0;
+	position : relative;
+	margin-top : 0;
+}
+
+#navMenu li ul a { 
+	font-size : 18px;
+}
+
+#navMenu li:hover ul { 
+	display : block;
+	width : 140px;
+	position : absolute;
+}
+
+#navMenu li a:hover { 
+	background-color : #F49F9C;
+}
+
+/*#about_intro {
+	font-style : italic;
+	margin-left : 2em;
+	margin-right : 4em;
+	text-align : justify;
+	font-family : Impact;
+	font-size : 1em;
+	color : gray;
+	border-bottom : 5px gray ridge;
+}
+
+#comics_nav a {
+	border : none;
+}
+
+#archive_content {
+	text-align : left;
+}
+
+#archive_content li {
+	list-style-type : none;
+}
+
+#archive_link {
+	width : 20%;
+	padding-left : 10%;
+	padding-right : 10%;
+}
+
+.nav_icons {
+	width : 10%;
+}
+
+.menu_ill {
+	width : 40%;
+}
+
+.dot {
+	width : 15%;
+	padding-top : 10%;
+}*/
+
+#content { 
+	clear : left;
+	/*position : absolute;*/
+	padding : 12px;
+	background-color : #FFFDED;
+	width : 80%;
+	margin-left : 7%; 
+	margin-right : auto;
+	z-index : 1;
+	text-align : left;
+	border-radius : 20px;
+	box-shadow : 2px 2px 1px 1px #FBD7A1;
+	font-size : 22px;
+	padding : 1.5em;
+	margin-top : 5em;
+	min-height : 30em;
+	max-height : 100%;
+}
+
+#content img {
+	width : 30%;
+	float : left; 
+	padding-right : 1em;
+}
+
+.podcast_banner {
+	position : relative;
+	width : 100%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.podcast_episode_banner {
+	width : 80%;
+	position : relative;
+	margin-left : 10%;
+}
+
+#yellingContent p {
+	padding-left : 2em;
+	padding-right : 2em;
+	font-size : 35px;
+	text-indent : 2.5em;
+	text-align : justify; 
+	line-height : 39px;
+}
+
+.yellingContent p {
+	padding-left : 2em;
+	padding-right : 2em;
+	font-size : 35px;
+	text-indent : 2.5em;
+	text-align : justify; 
+	line-height : 39px;
+}
+
+#yellingContent li {
+	font-size : 35px;
+	line-height : 39px;
+	text-align : justify;
+	margin-left : 3em;
+	margin-right : 2em;
+	padding-bottom : 1em;
+}
+
+h3.small {
+	text-indent : 0px;
+	font-size : 20px;
+	font-style : italic;
+	font-weight : normal;
+	margin-right : 2.5em;
+	margin-left : 2.5em;
+}
+
+ul.ingredients {
+	list-style-type : none;
+	text-align : center;
+}
+
+#news { 
+	width : 69%;
+	border-right : 1px solid gray;
+	height : 100%;
+}
+
+#sidebar { 
+	width : 30%;
+	float : right;
+	padding-left : 10px;
+	height : 100%;
+
+}
+
+#extras {
+	width : 90%;
+	margin-left : 2em;
+}
+
+.menu_icon {
+	width : 30%;
+}
+
+#footer { 
+	position : relative;
+	top : 85px;
+	height : 50px;
+	clear : both;
+	font-size : 20px;
+}
+
+h1 { 
+	text-align : center;
+}
+
+h2 { 
+	text-align : center;
+}
+
+img.mini { 
+	width : 150px;
+	float : left;
+	margin-right : 10px;
+}
+
+p.blurb { 
+	margin-bottom : 7em;
+	border : none;
+}
+
+p.center { 
+	text-align : center;
+}
+
+#piclist { 
+	position : relative;
+	margin-left : /*17%*/ 10%;
+	margin-top : 10%;
+}
+
+#display {
+    width : 70%;
+    float : right;
+}
+    
+#placeholder { 
+    width : 60%;
+    padding-right : 22%;
+    padding-left : 0;
+}
+
+#caption { 
+	padding-right : 22%;
+}
+
+#piclist img { 
+	padding : 0px;
+	width : 92px;
+	height : 68px;
+	border : none;
+}
+
+#fourOfour {
+	position : relative;
+	width : 72%;	
+}
+
+#comic { 
+	position : relative;
+	clear : left;
+	padding-top : 10px;
+}
+
+.comicNav { 
+	position : relative;
+	margin-left : -7%;
+}
+
+.comicNav img { 
+	padding-left : 50px;
+}
+
+img.navButton {
+	width : 110px;
+}
+
+#comicWindow { 
+	width : 71%;
+	padding : 10px;
+}
+
+#comicWindow2 {
+	width : 78%;
+}
+
+#extraNav {
+	list-style-type : none;
+	text-align : center;
+}
+
+#extraNav a {
+	text-decoration : none;
+}
+
+#extraNav a:hover {
+	background-color : #FEF76E;
+}
+
+#ad {
+	position : relative;
+	margin-top : 50px;
+}
+
+#yellingContent h3 {
+	padding-left : 2em;
+	font-size : 35px;
+}
+
+#slideWindow {
+	width : 450px;
+}
+
+img.navButton2 {
+	width : 120px;
+	vertical-align : center;
+	padding : 2px;
+	padding-bottom : 25%;
+}
+
+p.indent {
+	margin-left : 1em;
+	font-style : italic;
+}
+
+p.noindent {
+	text-indent : 0em;
+	margin-left : -2.5em;
+}
